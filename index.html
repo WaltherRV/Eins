@@ -1,12 +1,110 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description" content="Esta es una página de ejemplo sobre repaso de HTML y CSS.">
+    <meta name="Keywords" content="HTML, CSS Github, Página web simple, programación">
+    <meta name="author" content="Walther"> 
     <title>Pagina Web</title>
+    <style>
+        .nombre {
+            font-size: 15px;
+            color: rgb(23, 184, 157)
+        }
+    </style>
 </head>
-<body>
-    <h1>Hola</h1>
-    <p>Esta es mi primera pagina web.</p>
+<body style="background-color: beige;"
+    <h1>Github, HTML y CSS</h1>
+    <h2>Github</h2>
+    <strong>Inicializar Git </strong>
+<p>git init # inicializa un repositorio <br>
+git add . # añade todos los archivos al staging area <br>git commit -m "mensaje" # crea un commit <br>git status # muestra el estado del repositorio
+<br>git log # muestra historial de commits
+<br> <br>
+<strong>Subir Proyectos</strong><br><br>
+git remote add origin https://github.com/usuario/repositorio.git
+<br>git branch -M main
+<br>git push -u origin main
+</p>
+<a href="https://github.com/WaltherRV/Eins">Mi Github</a>
+<br> <img src="https://w.wallhaven.cc/full/5y/wallhaven-5yd6d5.png"  width="300" height="200" alt="Ahh wallpaper">
+
+<p style="color: red;"> Este texto es de color Rojo, el comando utilizado: </p>
+<p> (<)p style="color:red;">This is a red paragraph.</p>
+
+<p><h3>Estilos HTML - CSS</h2></p>
+
+<div class="nombre" id="codigo_unico"> <h4 style="font-family: Verdana, Geneva, Tahoma, sans-serif;"> <p style="background-color: rgb(53, 9, 9);">  Acabo de aprender para que sirven las clases, primero abres un div, luego para definirlo usas class, <br> id que sirven para poder identificar la clase. En el Head pones style abres corchetes, pones el <br>nombre de la clase con un punto antes osea (.nombre) le agregas lo que quieras, en este caso font-size 15px <br> y color: blue;" </div> </p> </h1> </h4>
+
+<h1 style="text-align: center;"> Centrada</h1>
+<p style="text-align:center;">Centered paragraph.</p>
+
+
+<h2 style="color: blue;"> Chapter Summary</h2>
+<h3>
+Use the style attribute for styling HTML elements
+<br>Use background-color for background color
+<br>Use color for text colors
+<br>Use font-family for text fonts
+<br>Use font-size for text sizes
+<br>Use text-align for text alignment</p></h3>
+
+<ul>
+    <li>Esto</li>
+    <li>Es</li>
+    <li>una lista no ordenada</li>
+</ul>
+
+<ol>
+    <li>Hola</li>
+    <li>Si</li>
+    <li>esto es una lista ordenada</li>
+</ol>
+
+<table> 
+    <thead>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Estatura</th>
+        </tr>
+    </thead>
+    <tbody>
+        <thead>
+            <tr>
+                <th>Mario</th>
+                <th>18</th>
+                <th>1.70cm</th>
+            </tr>
+        </thead>
+    </tbody>
+</table>
+
+
+<section>
+    <form action="P">
+        <fieldset>
+            <legend>Informacion Personal</legend>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre">
+             <label for="nombre">Apellido</label>
+            <input type="text" id="nombre">
+        </fieldset>
+         <fieldset>
+            <legend>Informacion Socioeconomica</legend>
+            <label for="nombre">Pais</label>
+            <select name="" id="">
+                <option value="Colombia">Colombia  
+                <option value="Colombia">Ecuador 
+                </option>
+            </select>
+             <label for="nombre">Foto de Cedula</label>
+            <input type="file" id="nombre">
+        </fieldset>
+    </form>
+</section>
+
+
+
 </body>
 </html>
